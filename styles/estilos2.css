@@ -1,0 +1,38 @@
+.list_carousel {
+	margin: 0 0 30px 60px;
+	width: 160px;
+	background-color:red;
+}
+.list_carousel ul {
+	background-color: #ccc;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.list_carousel li {
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	background-color: #409;
+	border: 5px solid #999;
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	margin: 6px;
+	display: block;
+	float: left;
+}
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+.prev {
+	float: left;
+	margin-left: 10px;
+}
+.next {
+	float: right;
+	margin-right: 10px;
+}
